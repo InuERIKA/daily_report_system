@@ -2,7 +2,7 @@ package services;
 
 import javax.persistence.EntityManager;
 
-import util.DBUtil;
+import utils.DBUtil;
 
 /**
  * DB接続に関わる共通処理を行うクラス
