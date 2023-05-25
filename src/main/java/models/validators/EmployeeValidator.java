@@ -27,7 +27,7 @@ public class EmployeeValidator {
 		List<String> errors = new ArrayList<String>();
 
 		//社員番号のチェック
-		String codeError =validateCode(service, ev, getCode(), codeDuplicateCheckFlag);
+		String codeError =validateCode(service, ev.getCode(), codeDuplicateCheckFlag);
 		if (!codeError.equals("")) {
             errors.add(codeError);
         }
